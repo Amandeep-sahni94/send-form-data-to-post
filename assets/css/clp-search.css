@@ -1,0 +1,35 @@
+.clp-search-wrap a.result img {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+    border-radius: 25px;
+}
+
+.clp-search-wrap .result span.titles h1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.clp-search-wrap a.result span.titles h2 {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4F596D;
+    border-radius: 5px;
+    color: #A2ABBC;
+}
+
+.clp-search-wrap a.result {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.clp-search-wrap a.result span.titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}

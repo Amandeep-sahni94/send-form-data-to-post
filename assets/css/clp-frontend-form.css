@@ -1,0 +1,130 @@
+.clp_front_end_form_wrap {
+    --background-color: #1e2635;
+    --green-color: #00AA72;
+    --border-radius: 10px;
+    --form-padding: 10px 15px;
+    --label-font-size: 18px;
+    --label-color: white;
+}
+/*--------------- custom css end--------------- */
+
+.clp_front_end_form_wrap form#front-end-post-form {
+    padding: 5%;
+}
+.clp_front_end_form_wrap div#clp_test_image-status {
+    margin: 7px 7px 7px 0px;
+}
+.clp_front_end_form_wrap .cmb2-wrap .cmb-row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.clp_front_end_form_wrap .cmb-row .cmb-td {
+    display: flex;
+    align-items: center;
+}
+.clp_front_end_form_wrap .cmb2-id-clp-buy-sell-link .cmb-td {
+	flex-direction:column;
+	align-items:flex-start;
+}
+.clp_front_end_form_wrap .cmb-row.cmb-type-text-datetime-timestamp .cmb-td,.cmb2-radio-list.cmb2-list{
+	gap:5px;
+}
+.clp_front_end_form_wrap .cmb-form .select2-selection.select2-selection--multiple {
+    width: 100%;
+}
+.clp_front_end_form_wrap .cmb2-wrap input:not(.cmb2-upload-button), .clp_front_end_form_wrap .cmb2-wrap textarea {
+   
+    width: 100% ;
+
+    min-height: 32px;
+   
+    padding: 15px 10px;
+}
+.clp_front_end_form_wrap .cmb2-wrap #clp_coin_kfc_verfied, .clp_front_end_form_wrap .cmb2-wrap #clp_coinbrain_chart, .clp_front_end_form_wrap .cmb2-wrap .cmb-td .cmb2-datepicker, .clp_front_end_form_wrap .cmb2-wrap .cmb-td .cmb2-timepicker {
+    width: auto ;
+}
+.cmb-type-pw-multiselect .cmb-td>span {
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.cmb-type-radio .cmb-th, .cmb-type-pw-multiselect .cmb-td>span {
+    width: 100% ;
+}
+.clp_front_end_form_wrap .cmb2-wrap select {
+    min-height: 32px;
+    border-radius: 6px;
+	padding:15px 10px;
+}
+.clp_front_end_form_wrap .cmb2-wrap .cmb-row .cmb2-radio-list {
+    list-style-type: none;
+}
+.cmb2-radio-list {
+    padding: 0;
+}
+.clp_front_end_form_wrap .cmb2-wrap .cmb-row .cmb2-radio-list, .cmb2-radio-list li {
+    display: flex;
+    flex-direction: row;
+}
+.cmb2-radio-list li {
+    width: 40px;
+    align-items: center;
+    margin: 1px 10px ;
+}
+.cmb-td .wp-core-ui {
+    width: 100%;
+}
+.clp_front_end_form_wrap #front-end-post-form input.button-primary {
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    height: 45px;
+    padding: 10px 25px;
+}
+.cmb-row .cmb-td input:hover, .cmb-row .cmb-td input:focus-within {
+	outline-width: 0px!important;
+    border-color: var(--green-color)!important;
+    border-radius: var(--border-radius);
+}
+.clp_front_end_form_wrap .cmb2-wrap button {
+    padding: 5px;
+}
+.clp_front_end_form_wrap .cmb2-wrap .wp-editor-container .quicktags-toolbar .ed_button {
+    width: auto ;
+}
+.clp_front_end_form_wrap .cmb2-wrap .cmb2-upload-button {
+    padding: 5px;
+}
+.cmb-row .cmb-th label {
+    font-size: var(--label-font-size);
+    color: var(--label-color);
+}
+.clp_front_end_form_wrap .cmb-form {
+    background-color: var(--background-color);
+    padding: var(--form-padding);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+.clp_front_end_form_wrap .cmb2-radio-list label {
+    color: var(--label-color);
+}
+.clp_front_end_form_wrap .cmb2-wrap input:not([type=hidden])+.button-secondary, .clp_front_end_form_wrap .cmb2-wrap input:not([type=hidden])+input, .clp_front_end_form_wrap .cmb2-wrap input:not([type=hidden])+select {
+    margin-left: 0px ;
+}
+.clp_front_end_form_wrap #cmb2-metabox-front-end-post-form .cmb-row.cmb-type-file.cmb2-id-clp-test-image .cmb-td {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media screen and (max-width:468px) {
+    .clp_front_end_form_wrap .cmb2-wrap .cmb-td .cmb2-datepicker, .clp_front_end_form_wrap .cmb2-wrap .cmb-td .cmb2-timepicker {
+        width: 100% ;
+    }
+   .clp_front_end_form_wrap .cmb-type-checkbox .cmb-td {
+        display: block;
+    }
+        .clp_front_end_form_wrap .cmb-row .cmb-td {
+        display: flex ;
+    }
+}

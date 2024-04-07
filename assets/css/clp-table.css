@@ -1,0 +1,201 @@
+.clp-wrap button.clp-table-coin-vote-button {
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  border: unset;
+  background: green;
+  padding: 10px 15px 10px 15px;
+}
+
+.clp-wrap span.clp-table-coin-price {
+  word-break: break-all;
+}
+
+.clp-wrap button.clp_watch_list {
+  /* display: flex;
+  -webkit-box-align: center;
+  align-items: center; */
+  padding: 5px 8px;
+  white-space: nowrap;
+  margin-right: 4px;
+  /* background-color: crimson; */
+  /* color: var(--text-color); */
+}
+
+.clp-wrap span.clp-table-coin-changes.clp-down {
+  color: red;
+}
+
+.clp-wrap span.clp-table-coin-changes.clp-up {
+  color: green;
+}
+
+.clp-wrap .clp-watch-empty:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.clp-wrap .clp-watch {
+  color: green;
+  cursor: pointer;
+}
+
+.clp-wrap .clp-table-coin-presale img {
+  vertical-align: middle;
+  width: 15px;
+}
+
+.clp-wrap .clp-table-coin-vote-today-24 {
+  color: green;
+}
+
+.clp-wrap .clp-tag.kyc {
+  background: #00aa72;
+  color: white;
+  font-weight: bold;
+  padding: 3px 6px;
+  font-size: 10px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+.clp-wrap .clp-tag.audit {
+  background: #21A2FF;
+  color: white;
+  font-weight: bold;
+  padding: 3px 6px;
+  font-size: 10px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+.clp-wrap .clp-badge-column {
+    display: grid;
+}
+.clp-wrap .clp-name-column a {
+  text-decoration: none;
+}
+
+.clp-wrap .clp-name-column {
+  display: inline-block;
+}
+
+.clp-wrap .clp-image-name-column img {
+  width: 27px;
+  padding: 5px;
+}
+
+.clp-wrap .clp-cg-img {
+  left: -4%;
+  vertical-align: top;
+  position: absolute;
+}
+
+.clp-table-coin-chain img {
+  width: 21px;
+}
+
+[data-column-id="1"],
+[data-column-id="clp_test_image"],
+[data-column-id="clp_coin_name"] {
+  position: sticky;
+  z-index: 1;
+  background: inherit;
+}
+[data-column-id="clp_coin_name"] {
+  left: 155px;
+}
+[data-column-id="1"] {
+  left: 0px;
+}
+[data-column-id="clp_test_image"] {
+  left: 55px;
+}
+.clp-table-coin-logo img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 5px;
+}
+.clp-wrap button.clp_watch_list {
+    display: inline-block;
+    position: relative;
+    left: calc(100% - 120px);
+    width: 120px;
+    margin: auto 0px;
+	vertical-align: bottom;
+}
+.clp-wrap [data-column-id="clp_test_image"] > *, .clp-wrap [data-column-id="1"] > *, .clp-wrap [data-column-id="clp_coin_name"] > * {
+    position: static!important;
+}
+
+.clp-wrap{
+  position: relative;
+}
+.clp-wrap .clp_filter_wrap{
+  display: inline-flex;
+ width:calc(100% - 8px);
+  gap: 10px;
+  padding: 5px 0px 5px 0px;
+/*   left: -125px; */
+	left:4px;
+    position: relative;
+
+}
+
+.clp-wrap .clp_watch_list+.clp_filter_wrap {
+    left: -115px!important;
+	width: calc(100% - 150px);
+}
+
+.clp-wrap .clp_filter_wrap>span {
+    flex-basis: 400px;
+}
+
+.clp-wrap [id^="react-select"]{
+  z-index: 9;
+  cursor:pointer;
+}
+
+.clp-wrap .MuiPagination-ul {
+ display: flex;
+ justify-content: center;
+}
+
+@media screen and (max-width:425px){
+  .clp-wrap button.clp_watch_list {
+   position: static;
+   width: 100%;
+   margin: 5px 0px;
+  
+  }
+ .clp-wrap .clp-custom-coin .clp_filter_wrap{
+   width: 100%;
+   left: 0;
+}
+
+.clp_filter_wrap>span {
+    flex-basis: 50%;
+}
+}
+@media screen and (max-width:767px){
+.clp-table-coin-logo img {
+    max-width: 32px;
+    max-height: 32px;
+}
+ .clp-wrap .rdt_TableCol,.clp-wrap .rdt_TableCell{
+    padding:0px 0px 0px 10px!important; 
+  }
+.clp-wrap [data-column-id="clp_test_image"]{
+   min-width:50px;
+  }
+ .clp-wrap [data-column-id="clp_coin_name"] {
+ left: 111px;
+}
+.clp-wrap .clp-cg-img {
+    position: static;
+}
+
+}
+.clp-wrap .rdt_TableHead{
+  z-index: 2;
+}

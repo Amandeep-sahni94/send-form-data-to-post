@@ -1,0 +1,9 @@
+span.clp_stats {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+span.clp_stat_value {
+    color: #008000;
+    margin-left: 5px;
+}
